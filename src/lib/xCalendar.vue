@@ -58,6 +58,10 @@ const getMon = year => {
 export default {
   name: 'xCalendar',
   props: {
+    selectTime: {
+      type: Array,
+      required: true
+    },
     isSingle: {
       type: Boolean,
       required: false,
